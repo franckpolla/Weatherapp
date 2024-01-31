@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/github.io./Weatherapp.git/static/css/main.b823094f.css",
-    "main.js": "/github.io./Weatherapp.git/static/js/main.e8177fe0.js",
-    "static/js/787.4e6b50b0.chunk.js": "/github.io./Weatherapp.git/static/js/787.4e6b50b0.chunk.js",
-    "static/media/cloud.png": "/github.io./Weatherapp.git/static/media/cloud.20f353f873a9b27949a9.png",
-    "index.html": "/github.io./Weatherapp.git/index.html",
-    "main.b823094f.css.map": "/github.io./Weatherapp.git/static/css/main.b823094f.css.map",
-    "main.e8177fe0.js.map": "/github.io./Weatherapp.git/static/js/main.e8177fe0.js.map",
-    "787.4e6b50b0.chunk.js.map": "/github.io./Weatherapp.git/static/js/787.4e6b50b0.chunk.js.map"
+    "main.css": "/github.io./Weatherapp/static/css/main.b823094f.css",
+    "main.js": "/github.io./Weatherapp/static/js/main.b4e6f7df.js",
+    "static/js/787.4e6b50b0.chunk.js": "/github.io./Weatherapp/static/js/787.4e6b50b0.chunk.js",
+    "static/media/cloud.png": "/github.io./Weatherapp/static/media/cloud.20f353f873a9b27949a9.png",
+    "index.html": "/github.io./Weatherapp/index.html",
+    "main.b823094f.css.map": "/github.io./Weatherapp/static/css/main.b823094f.css.map",
+    "main.b4e6f7df.js.map": "/github.io./Weatherapp/static/js/main.b4e6f7df.js.map",
+    "787.4e6b50b0.chunk.js.map": "/github.io./Weatherapp/static/js/787.4e6b50b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b823094f.css",
-    "static/js/main.e8177fe0.js"
+    "static/js/main.b4e6f7df.js"
   ]
 }
