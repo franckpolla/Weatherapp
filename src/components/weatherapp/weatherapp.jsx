@@ -1,21 +1,21 @@
 import React from "react";
 import "./waetherapp.css";
-import Search_icon from "C:/Users/usr186/Desktop/WeatherApp/src/images/search.png";
-import Clear_icon from "C:/Users/usr186/Desktop/WeatherApp/src/images/clear.png";
-import Cloud_icon from "C:/Users/usr186/Desktop/WeatherApp/src/images/cloud.png";
-import Drizzle_icon from "C:/Users/usr186/Desktop/WeatherApp/src/images/drizzle.png";
-import Humidity_icon from "C:/Users/usr186/Desktop/WeatherApp/src/images/humidity.png";
-import Rain_icon from "C:/Users/usr186/Desktop/WeatherApp/src/images/rain.png";
-import Snow_icon from "C:/Users/usr186/Desktop/WeatherApp/src/images/snow.png";
-import Wind_icon from "C:/Users/usr186/Desktop/WeatherApp/src/images/wind.png";
-import { useEffect, useState } from "react";
+import Search_icon from "../../images/search.png";
+import Clear_icon from "../../images/clear.png";
+import Cloud_icon from "../../images/cloud.png";
+import Drizzle_icon from "../../images/drizzle.png";
+import Humidity_icon from "../../images/humidity.png";
+import Rain_icon from "../../images/rain.png";
+import Snow_icon from "../../images/snow.png";
+import Wind_icon from "../../images/wind.png";
+import { useState } from "react";
 
 const WeatherApp = () => {
-  let Apikey = "1e3d50466e73deab968145e21edec05e";
+  const API_KEY = "1e3d50466e73deab968145e21edec05e";
   const [cityName, setCityName] = useState("");
   const [error, setError] = useState("");
 
-  const Url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${Apikey}&units=metric`;
+  const Url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=metric`;
 
   const [data, setData] = useState({
     name: "Nicosia",
